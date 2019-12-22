@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Subscription } from 'rxjs';
+import { PostService } from './services/post.service';
 
 @Component({
   selector: 'app-root',
@@ -7,19 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-blog';
-
-  posts = [
-    {
-      title: 'Mon premier article',
-      content: 'Du contenu',
-      loveIts: 0,
-      created_at: new Date()
-    },
-    {
-      title: 'Mon deuxième article',
-      content: 'Du contenu',
-      loveIts: 0,
-      created_at: new Date()
-    }
-  ];
+  
 }
