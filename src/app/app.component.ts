@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-blog';
+
+  posts = [
+    {
+      title: 'Mon premier article',
+      content: 'Du contenu',
+      loveIts: 0,
+      created_at: new Date()
+    },
+    {
+      title: 'Mon deuxième article',
+      content: 'Du contenu',
+      loveIts: 0,
+      created_at: new Date()
+    }
+  ];
 }
