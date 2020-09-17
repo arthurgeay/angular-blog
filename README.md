@@ -1,27 +1,45 @@
-# AngularBlog
+# 📕 Angular Blog 
+![Version](https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
+**Angular Blog** est une application web développé avec le framework **Angular**.
 
-## Development server
+> Ce projet a été réalisé dans le cadre du cours Openclassrooms ([Développez des applications web avec Angular](https://openclassrooms.com/fr/courses/4668271-developpez-avec-angular))
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Fonctionnement
+Le projet propose deux pages :
+- La liste des articles
+- Ajout d'un article
 
-## Code scaffolding
+Sur chaque article on peut décider de "liker" ou "disliker" un article.
+Un bouton pour supprimer l'article est aussi affiché.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies utilisées
 
-## Build
+- **[Angular](https://angular.io/) -** Framework Javascript 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```sh
+npm install
+```
 
-## Running end-to-end tests
+## Usage
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```sh
+npm run start
+```
 
-## Further help
+## Tests
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```sh
+npm run test
+```
+
+## Auteur
+
+👤 **Arthur Geay**
+
+* Website: https://arthurgeay.fr
+* Twitter: [@arthurgeay](https://twitter.com/arthurgeay)
+* Github: [@arthurgeay](https://github.com/arthurgeay)
