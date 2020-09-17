@@ -7,8 +7,8 @@
 
 ## Fonctionnement
 Le projet propose deux pages :
-- La liste des articles
-- Ajout d'un article
+- **La liste des articles
+- **Ajout d'un article
 
 Sur chaque article on peut décider de "liker" ou "disliker" un article.
 Un bouton pour supprimer l'article est aussi affiché.
